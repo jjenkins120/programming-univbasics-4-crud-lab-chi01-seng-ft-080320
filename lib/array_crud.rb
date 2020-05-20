@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   grocery_list = ["cheese", "avocado", "bread", "bacon"]
-  grocery_list << "almond milk"
+  grocery_list << "arrays!"
   p grocery_list
 end
 
