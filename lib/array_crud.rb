@@ -14,7 +14,7 @@ end
 
 def add_element_to_start_of_array(array, element)
   grocery_list = ["cheese", "avocado", "bread", "bacon"]
-  grocery_list.unshift("arrays!")
+  grocery_list.unshift("wow")
   p grocery_list
 end
 
