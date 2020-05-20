@@ -25,7 +25,9 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  
+  grocery_list = ["wow", "avocado", "bread", "bacon", "arrays!"]
+  wow_array = grocery_list.shift 
+  p wow_array
 end
 
 def retrieve_element_from_index(array, index_number)
