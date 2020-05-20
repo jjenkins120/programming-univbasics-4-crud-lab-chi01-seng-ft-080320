@@ -19,7 +19,9 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  
+  grocery_list = ["cheese", "avocado", "bread", "bacon", "arrays!"]
+  array_removed = grocery_list.pop
+  p array_removed
 end
 
 def remove_element_from_start_of_array(array)
