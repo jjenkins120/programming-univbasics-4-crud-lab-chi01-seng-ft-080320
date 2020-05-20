@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+  grocery_list = ["cheese", "avocado", "bread", "bacon"]
   grocery_list << "almond milk"
-  p grocery_list
 end
 
 def add_element_to_start_of_array(array, element)
